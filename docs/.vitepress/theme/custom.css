@@ -1,0 +1,17 @@
+:root {
+  --vp-sidebar-width: 345px;
+}
+
+.blog-overview-list h2 {
+  margin-bottom: 0.1em;
+}
+
+.blog-overview-list .post-link {
+  color: var(--vp-c-link);
+  text-decoration: none;
+}
+
+.blog-overview-list .post-date {
+  color: var(--vp-c-text-2);
+  font-size: 0.9em;
+}

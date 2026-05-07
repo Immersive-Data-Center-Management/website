@@ -1,0 +1,24 @@
+{
+  "name": "website",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Website for the Immersive Data Center Management project",
+  "engines": {
+    "node": "24.15.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "gray-matter": "^4.0.3",
+    "mermaid": "^11.13.0",
+    "prettier": "^3.8.1",
+    "vitepress": "^1.6.4",
+    "vitepress-plugin-mermaid": "^2.0.17"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "format:check": "prettier --check \"docs/**/*.md\"",
+    "format:write": "prettier --write \"docs/**/*.md\""
+  }
+}

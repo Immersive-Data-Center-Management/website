@@ -27,12 +27,9 @@ Copied and adapted from: https://github.com/vuejs/vitepress/blob/828000099843c98
 -->
 
 <script setup lang="ts">
-import { useSidebar } from 'vitepress/theme';
-import { withBase, useData } from "vitepress";
+import { useLayout } from 'vitepress/theme';
 
-const { hasSidebar } = useSidebar()
-const { isDark, title } = useData()
-const projectName = title || 'OpenMFP'
+const { hasSidebar } = useLayout()
 
 </script>
 

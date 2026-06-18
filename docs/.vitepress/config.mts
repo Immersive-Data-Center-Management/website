@@ -75,7 +75,12 @@ export default withMermaid(
 
       socialLinks: [
         { icon: "github", link: "https://github.tools.sap/apeirora-idcm" }
-      ]
+      ],
+    },
+
+    lastUpdated: true,
+    sitemap: {
+      hostname: "https://idcm.cloud"
     },
     mermaid: {
       // refer https://mermaid.js.org/config/setup/modules/mermaidAPI.html#mermaidapi-configuration-defaults for options

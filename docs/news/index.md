@@ -1,3 +1,7 @@
+---
+lastUpdated: false
+---
+
 <script setup>
     import { data as posts } from './posts.data.mts'
 </script>

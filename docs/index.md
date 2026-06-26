@@ -18,7 +18,7 @@ features:
   - title: Data Center
     details: A data center combines facility infrastructure, hardware, and virtual systems to provide reliable computing resources. It forms the technical foundation on which digital services operate.
     link: /overview/data-center
-  - title: XR
+  - title: Extended Reality
     details: Extended Reality (XR) combines virtual, augmented, and mixed reality technologies to provide intuitive and immersive ways to explore and understand complex information.
     link: /overview/xr
   - title: Digital Twin & Asset Administration Shell

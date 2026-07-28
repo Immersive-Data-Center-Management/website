@@ -1,5 +1,72 @@
 :root {
   --vp-sidebar-width: 345px;
+
+  /* Brand / Akzentfarbe */
+  --vp-c-brand-1: #1b90ff;
+  --vp-c-brand-2: #1b90ff;
+  --vp-c-brand-3: #1b90ff;
+  --vp-c-brand-soft: rgba(27, 144, 255, 0.14);
+
+  /* Hintergründe */
+  --vp-c-bg: #ffffff;
+  --vp-c-bg-soft: #f5f6f7;
+  --vp-c-bg-mute: #eaecee;
+  --vp-c-bg-elv: #ffffff;
+  --vp-c-bg-alt: #f5f6f7;
+
+  /* Text */
+  --vp-c-text-1: #12171c;
+  --vp-c-text-2: #1a2733;
+  --vp-c-text-3: #354a5f;
+
+  /* Rahmen / Divider */
+  --vp-c-divider: #eaecee;
+  --vp-c-gutter: #eaecee;
+  --vp-c-border: #eaecee;
+
+  /* Buttons */
+  --vp-button-brand-bg: #1b90ff;
+  --vp-button-brand-hover-bg: #1a80e8;
+  --vp-button-brand-text: #ffffff;
+  --vp-button-alt-bg: #d5dadd;
+  --vp-button-alt-hover-bg: #c5cdd2;
+  --vp-button-alt-text: #12171c;
+
+  /* Schriftfamilie */
+  --vp-font-family-base: 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
+}
+
+.dark {
+  /* Brand / Akzentfarbe */
+  --vp-c-brand-1: #1b90ff;
+  --vp-c-brand-2: #1b90ff;
+  --vp-c-brand-3: #1b90ff;
+  --vp-c-brand-soft: rgba(27, 144, 255, 0.14);
+
+  /* Hintergründe */
+  --vp-c-bg: #12171c;
+  --vp-c-bg-soft: #1a2733;
+  --vp-c-bg-mute: #223548;
+  --vp-c-bg-elv: #1a2733;
+  --vp-c-bg-alt: #12171c;
+
+  /* Text */
+  --vp-c-text-1: #f5f6f7;
+  --vp-c-text-2: #eaecee;
+  --vp-c-text-3: #a9b4be;
+
+  /* Rahmen / Divider */
+  --vp-c-divider: #354a5f;
+  --vp-c-gutter: #354a5f;
+  --vp-c-border: #354a5f;
+
+  /* Buttons */
+  --vp-button-brand-bg: #1b90ff;
+  --vp-button-brand-hover-bg: #1a80e8;
+  --vp-button-brand-text: #ffffff;
+  --vp-button-alt-bg: #223548;
+  --vp-button-alt-hover-bg: #2a4060;
+  --vp-button-alt-text: #f5f6f7;
 }
 
 .blog-overview-list h2 {

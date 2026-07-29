@@ -1,7 +1,7 @@
 import { readdirSync, readFileSync } from 'node:fs'
 import { resolve, basename, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import matter from 'gray-matter'
+import matter from '@11ty/gray-matter'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 

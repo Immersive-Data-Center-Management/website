@@ -8,9 +8,9 @@
   },
   "devDependencies": {
     "@types/node": "^26.1.1",
-    "gray-matter": "^4.0.3",
     "prettier": "^3.9.6",
-    "vitepress": "^2.0.0-alpha.18"
+    "vitepress": "^2.0.0-alpha.18",
+    "@11ty/gray-matter": "^2.1.0"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",

@@ -9,7 +9,7 @@
   "devDependencies": {
     "@types/node": "^26.1.1",
     "gray-matter": "^4.0.3",
-    "prettier": "^3.8.1",
+    "prettier": "^3.9.6",
     "vitepress": "^2.0.0-alpha.18"
   },
   "scripts": {

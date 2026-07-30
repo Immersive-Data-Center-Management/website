@@ -8,6 +8,14 @@ const base = process.env.VITE_BASE_PATH || "/";
 export default defineConfig({
   base,
 
+  vue: {
+    template: {
+      compilerOptions: {
+        isCustomElement: (tag) => tag.startsWith('ui5-')
+      }
+    }
+  },
+
   title: "Immersive Data Center Management",
   description: "An ApeiroRA Project",
 

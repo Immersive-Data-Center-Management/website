@@ -32,6 +32,12 @@ export default defineConfig({
     resolve: {
       alias: [
         {
+          find: /^.*\/VPNavBar\.vue$/,
+          replacement: fileURLToPath(
+            new URL("theme/components/VPNavBar.vue", import.meta.url),
+          ),
+        },
+        {
           find: /^.*\/VPFooter\.vue$/,
           replacement: fileURLToPath(
             new URL("theme/components/VPFooter.vue", import.meta.url),
@@ -43,10 +49,13 @@ export default defineConfig({
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: '/SAP_R_grad_scrn.svg',
+    siteTitle: false,
+
     nav: [
       { text: "Home", link: "/" },
-      { text: "Overview", link: "/overview" },
-      { text: "News", link: "/news" }
+      { text: "Overview", link: "/overview", activeMatch: "/overview" },
+      { text: "News", link: "/news", activeMatch: "/news" }
     ],
 
     sidebar: {

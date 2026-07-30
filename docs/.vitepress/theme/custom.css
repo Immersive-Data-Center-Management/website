@@ -29,6 +29,8 @@
 
   --vp-font-family-base: 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
 
+  --vp-nav-logo-height: 32px;
+
   --vp-home-hero-name-color: #1b90ff;
   --vp-home-hero-name-background: none;
 
@@ -116,6 +118,13 @@
   font-weight: 400;
   line-height: 28px;
   padding-top: 24px;
+}
+
+@media (min-width: 768px) {
+  .VPNavBarSearchButton {
+    min-width: 148px;
+    color: var(--vp-c-text-3);
+  }
 }
 
 .blog-overview-list h2 {

@@ -6,8 +6,8 @@ hero:
   name: "Immersive Data Center Management"
   tagline: A new way to understand and operate the digital infrastructure that powers Europe
   image:
-    src: /hero-illustration.png
-    alt: IDCM Illustration
+    src: /IDCM_logo.svg
+    alt: IDCM Logo
   actions:
     - theme: brand
       text: Explore Our Research

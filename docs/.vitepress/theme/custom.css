@@ -34,8 +34,8 @@
   --vp-home-hero-name-color: #1b90ff;
   --vp-home-hero-name-background: none;
 
-  --vp-home-hero-image-background-image: radial-gradient(circle, rgba(180, 130, 255, 0.4) 0%, transparent 70%);
-  --vp-home-hero-image-filter: blur(44px);
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, rgba(149, 78, 255, .6) 50%, rgba(228, 210, 255, .6) 50%);
+  --vp-home-hero-image-filter: blur(60px);
 }
 
 .dark {
@@ -66,13 +66,10 @@
   --vp-button-alt-text: #f5f6f7;
 }
 
-/* Hero image: blend away PNG background */
 .VPHero .image-src {
-  mix-blend-mode: multiply;
-}
-
-.dark .VPHero .image-src {
-  mix-blend-mode: screen;
+  width: 90%;
+  height: 90%;
+  filter: drop-shadow(-2px 4px 6px rgba(0, 0, 0, 0.2));
 }
 
 /* Hero name: Semi Bold (600), not Bold (700) */

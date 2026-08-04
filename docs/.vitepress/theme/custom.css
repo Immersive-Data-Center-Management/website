@@ -70,6 +70,14 @@
   filter: drop-shadow(-2px 4px 6px rgba(0, 0, 0, 0.2));
 }
 
+.VPHero .image-container {
+  transform: translate(0, 0);
+}
+
+.VPHomeFeatures {
+  padding-top: 96px !important;
+}
+
 /* Hero name: Semi Bold (600), not Bold (700) */
 .VPHero .name {
   font-weight: 600;

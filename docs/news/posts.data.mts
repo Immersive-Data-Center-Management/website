@@ -11,7 +11,8 @@ export default createContentLoader('news/*.md', {
     let posts = getBlogSidebarItems();
     return posts
       .map((post) => {
-        let excerpt = raw.find(r => r.url === post.url)?.excerpt;
+        const rawPost = raw.find(r => r.url === post.url);
+        let excerpt = rawPost?.excerpt || rawPost?.frontmatter?.excerpt;
 
         // Remove the h1 tag from the excerpt
         excerpt = excerpt?.replace(/<h1[^>]*>.*?<\/h1>\n?/s, '');

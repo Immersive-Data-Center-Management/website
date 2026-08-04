@@ -51,14 +51,20 @@ const { hasSidebar } = useLayout()
             The views and opinions expressed are solely those of the author(s) and do not necessarily reflect the views of the European Union or the European Commission. Neither the European Union nor the European Commission can be held responsible for them.
           </p>
         </div>
-
       </div>
-
-    </div>
-    <div class="container footer-legal-links">
-      <a href="https://www.sap.com/germany/about/legal/impressum-se.html" target="_blank">Legal Disclosure</a>
     </div>
   </footer>
+  <div class="legal-bar">
+    <div class="legal-bar-inner">
+      <div class="legal-bar-sap">
+        <img src="/SAP_R_grad_scrn.svg" alt="SAP" class="sap-logo" />
+        <span class="legal-copyright">An SAP Open Source Project</span>
+      </div>
+      <div class="legal-bar-links">
+        <a href="https://www.sap.com/germany/about/legal/impressum-se.html" target="_blank" rel="noopener">Legal Disclosure</a>
+      </div>
+    </div>
+  </div>
 </template>
 
 <style scoped>
@@ -92,70 +98,8 @@ const { hasSidebar } = useLayout()
 
 .container {
   margin: 0 auto;
-  max-width: var(--vp-layout-max-width);
-  text-align: center;
-}
-
-.message,
-.copyright {
-  line-height: 24px;
-  font-size: 14px;
-  font-weight: 500;
-  color: var(--vp-c-text-2);
-}
-
-/* Main Footer Container */
-.footer {
-  border-top: 1px solid var(--vp-c-divider);
-  background-color: var(--vp-c-bg-soft);
-  padding: 32px 24px;
-  margin-top: 64px;
-}
-
-.container {
   max-width: 1152px;
-  margin: 0 auto;
-}
-
-/* Columns for navigation links */
-.footer-columns {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 24px;
-  margin-bottom: 48px;
-}
-
-.footer-column {
-  flex-grow: 1;
-  min-width: 160px;
-}
-
-.footer-column h5 {
-  font-size: 14px;
-  font-weight: 600;
-  color: var(--vp-c-text-1);
-  margin-bottom: 8px;
-}
-
-.footer-column ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.footer-column li {
-  margin-bottom: 6px;
-}
-
-.footer-column a {
-  font-size: 14px;
-  color: var(--vp-c-text-2);
-  transition: color 0.25s;
-}
-
-.footer-column a:hover {
-  color: var(--vp-c-brand-1);
+  text-align: center;
 }
 
 /* Funding Notice Section */
@@ -186,64 +130,72 @@ const { hasSidebar } = useLayout()
   margin: 0;
 }
 
-/* Final Copyright Line */
-.copyright {
-  border-top: 1px solid var(--vp-c-divider);
-  padding-top: 24px;
-  text-align: left;
+/* Always-visible legal bar — shown on all pages including those with sidebar */
+.legal-bar {
+  position: relative;
+  z-index: 31; /* above --vp-z-index-sidebar (30) so sticky sidebar doesn't cover it */
+  border-top: 1px solid var(--vp-c-gutter);
+  padding: 12px 24px;
+  background-color: var(--vp-c-bg);
+}
+
+.legal-bar-inner {
+  margin: 0 auto;
+  max-width: 1152px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.legal-bar-sap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sap-logo {
+  height: 20px;
+  width: auto;
+  display: block;
+  margin-top: -4px;
+}
+
+.legal-copyright {
   font-size: 12px;
   color: var(--vp-c-text-2);
-  margin-top: 24px;
-  line-height: 1.6;
 }
 
-.footer-legal-links {
-  margin-top: 8px;
-  font-size: 13px;
-  color: var(--vp-c-text-2);
+.legal-bar-links {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
 }
 
-.footer-legal-links a {
+.legal-bar-links a {
   color: var(--vp-c-text-2);
   text-decoration: none;
-  margin: 0 4px;
   transition: color 0.2s;
 }
 
-.footer-legal-links a:hover {
+.legal-bar-links a:hover {
   color: var(--vp-c-brand-1);
 }
 
-.footer-legal-sep {
-  margin: 0 4px;
+.legal-sep {
   color: var(--vp-c-divider);
 }
 
-/* Neonephos Logo Section */
-.neonephos-logos {
-  margin: 24px 0;
-  text-align: center;
-}
-
-.neonephos-logo {
-  max-height: 60px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
-.neonephos-link {
-  display: inline-block;
-}
-
-/* Responsive adjustments */
 @media (max-width: 768px) {
-  .footer-columns {
-    justify-content: flex-start;
+  .legal-bar {
+    padding: 12px 16px;
   }
 
-  .neonephos-logo {
-    max-height: 50px;
+  .legal-bar-inner {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
 </style>

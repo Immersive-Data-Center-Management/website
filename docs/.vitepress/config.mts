@@ -49,6 +49,7 @@ export default defineConfig({
     nav: [
       { text: "Home", link: "/" },
       { text: "Overview", link: "/overview", activeMatch: "/overview" },
+      { text: "Documentation", link: "/docs", activeMatch: "/docs" },
       { text: "News", link: "/news", activeMatch: "/news" }
     ],
 
@@ -69,6 +70,17 @@ export default defineConfig({
         {
           text: "Digital Twin & Asset Administration Shell",
           link: "/overview/digital-twin-aas"
+        }
+      ],
+      "docs": [
+        {
+          text: "Documentation",
+          items: [
+            {
+              text: "Architecture",
+              link: "/docs/architecture"
+            }
+          ]
         }
       ],
       "news": [

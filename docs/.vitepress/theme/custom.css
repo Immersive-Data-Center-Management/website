@@ -144,7 +144,7 @@
 }
 
 .post-card .post-title {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 700;
   line-height: 1.3;
   color: var(--vp-c-text-1);
@@ -156,6 +156,7 @@
 .post-card .post-link {
   color: var(--vp-c-text-1);
   text-decoration: none;
+  font-weight: 700;
 }
 
 .post-card .post-link:hover {
@@ -163,14 +164,14 @@
 }
 
 .post-card .post-date {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
   line-height: normal;
   color: var(--vp-c-text-1);
 }
 
 .post-card .post-excerpt {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   color: var(--vp-c-text-1);
@@ -179,4 +180,64 @@
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
+}
+
+.VPDoc .content-container:has(.news-article-date) {
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 24px;
+  padding: 32px 32px 16px;
+}
+
+.news-article-date {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: normal;
+  color: var(--vp-c-text-1);
+  margin-bottom: 16px;
+}
+
+.VPDoc .content-container:has(.news-article-date) .vp-doc h1 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-top: 0;
+  padding-top: 0;
+  border-top: none;
+  margin-bottom: 16px;
+}
+
+.VPDoc .content-container:has(.news-article-date) .vp-doc h2 {
+  font-size: 20px;
+  margin-top: 24px;
+  padding-top: 0;
+  border-top: none;
+}
+
+.VPDoc .content-container:has(.news-article-date) .vp-doc h3 {
+  font-size: 18px;
+  margin-top: 20px;
+  padding-top: 0;
+  border-top: none;
+}
+
+.VPDoc .content-container:has(.news-article-date) .vp-doc h4 {
+  font-size: 16px;
+  margin-top: 16px;
+  padding-top: 0;
+  border-top: none;
+}
+
+.VPDoc .content-container:has(.news-article-date) .vp-doc h5,
+.VPDoc .content-container:has(.news-article-date) .vp-doc h6 {
+  font-size: 14px;
+  margin-top: 16px;
+  padding-top: 0;
+  border-top: none;
+}
+
+.VPDoc .content-container:has(.news-article-date) .vp-doc p {
+  font-size: 16px;
+  line-height: 1.5;
 }

@@ -1,9 +1,14 @@
 import DefaultTheme from 'vitepress/theme'
 import type { Theme } from 'vitepress'
+import { h } from 'vue'
+import NewsArticleDate from './components/NewsArticleDate.vue'
 import './custom.css'
 
 export default {
   extends: DefaultTheme,
+  Layout: () => h(DefaultTheme.Layout, null, {
+    'doc-before': () => h(NewsArticleDate)
+  }),
   async enhanceApp() {
     if (typeof window !== 'undefined') {
       const { setTheme } = await import('@ui5/webcomponents-base/dist/config/Theme.js')

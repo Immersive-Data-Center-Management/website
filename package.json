@@ -18,5 +18,9 @@
     "docs:preview": "vitepress preview docs",
     "format:check": "prettier --check \"docs/**/*.md\"",
     "format:write": "prettier --write \"docs/**/*.md\""
+  },
+  "dependencies": {
+    "@ui5/webcomponents": "^2.25.0",
+    "@ui5/webcomponents-icons": "^2.25.0"
   }
 }

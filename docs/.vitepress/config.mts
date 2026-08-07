@@ -78,6 +78,15 @@ export default defineConfig({
             }
           ]
         },
+        {
+          text: "Publications",
+          items: [
+            {
+              text: "XR for Complex Datacenter Environments",
+              link: "/documentation/publications/xr-for-complex-datacenter-environments"
+            }
+          ]
+        },
       ],
       "news": [
         {

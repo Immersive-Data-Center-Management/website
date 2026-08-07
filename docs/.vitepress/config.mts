@@ -38,6 +38,7 @@ export default defineConfig({
     nav: [
       { text: "Home", link: "/" },
       { text: "Overview", link: "/overview" },
+      { text: "Documentation", link: "/documentation/pilots/idtx-flow" },
       { text: "News", link: "/news" }
     ],
 
@@ -59,6 +60,17 @@ export default defineConfig({
           text: "Digital Twin & Asset Administration Shell",
           link: "/overview/digital-twin-aas"
         }
+      ],
+      "documentation": [
+        {
+          text: "Pilots",
+          items: [
+            {
+              text: "IDTX Flow",
+              link: "/documentation/pilots/idtx-flow"
+            }
+          ]
+        },
       ],
       "news": [
         {

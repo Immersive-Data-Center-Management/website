@@ -38,7 +38,7 @@ export default defineConfig({
     nav: [
       { text: "Home", link: "/" },
       { text: "Overview", link: "/overview" },
-      { text: "Documentation", link: "/documentation" },
+      { text: "Documentation", link: "/documentation/pilots/idtx-flow" },
       { text: "News", link: "/news" }
     ],
 

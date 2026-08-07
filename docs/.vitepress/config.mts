@@ -56,10 +56,6 @@ export default defineConfig({
     sidebar: {
       "overview": [
         {
-          text: "Overview",
-          link: "/overview"
-        },
-        {
           text: "Data Center",
           link: "/overview/data-center"
         },

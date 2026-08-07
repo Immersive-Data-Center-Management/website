@@ -48,9 +48,9 @@ export default defineConfig({
 
     nav: [
       { text: "Home", link: "/" },
-      { text: "Overview", link: "/overview", activeMatch: "/overview" },
-      { text: "Documentation", link: "/docs", activeMatch: "/docs" },
-      { text: "News", link: "/news", activeMatch: "/news" }
+      { text: "Overview", link: "/overview", activeMatch: "/overview", activeMatch: "/overview" },
+      { text: "Documentation", link: "/documentation/pilots/idtx-flow", activeMatch: "/documentation" },
+      { text: "News", link: "/news", activeMatch: "/news", activeMatch: "/news" },
     ],
 
     sidebar: {
@@ -72,16 +72,16 @@ export default defineConfig({
           link: "/overview/digital-twin-aas"
         }
       ],
-      "docs": [
+      "documentation": [
         {
-          text: "Documentation",
+          text: "Pilots",
           items: [
             {
-              text: "Architecture",
-              link: "/docs/architecture"
+              text: "IDTX Flow",
+              link: "/documentation/pilots/idtx-flow"
             }
           ]
-        }
+        },
       ],
       "news": [
         {

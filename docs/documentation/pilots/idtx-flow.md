@@ -46,4 +46,6 @@ For immersive visualization workflows, IDTX Flow represents a significant produc
 
 ---
 
-*IDTX Flow is open source and welcomes contributions, feature requests, and feedback. Learn more at the project repository.*
+*IDTX Flow is open source and welcomes contributions, feature requests, and feedback.*
+
+<GitHubButton href="https://github.com/Immersive-Data-Center-Management/idtx-flow" label="View idtx-flow on GitHub" />

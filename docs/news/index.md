@@ -1,5 +1,6 @@
 ---
 lastUpdated: false
+aside: false
 ---
 
 <script setup>
@@ -10,8 +11,10 @@ lastUpdated: false
 
 <div class="blog-overview-list">
   <template v-for="post in posts" :key="post.url">
-    <h2><a :href="post.url" class="post-link">{{ post.title }}</a></h2>
-    <span class="post-date">{{ post.date.string }}</span>
-    <div v-html="post.excerpt" class="post-excerpt"/>
+    <div class="post-card">
+      <span class="post-date">{{ post.date.string }}</span>
+      <h2 class="post-title"><a :href="post.url" class="post-link">{{ post.title }}</a></h2>
+      <div v-html="post.excerpt" class="post-excerpt"/>
+    </div>
   </template>
 </div>

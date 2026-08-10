@@ -1,11 +1,10 @@
 ---
 title: "Open, Immersive, Human-Centered: The Future of Data Center Management"
 date: 2026-06-22
+excerpt: "Data centers, cloud edge environments, and digital twins have grown into vast, distributed, and highly complex systems. Yet, the tools used to operate them are still rooted in fragmented interfaces, abstract dashboards, and siloed telemetry. Understanding what is truly happening inside a modern infrastructure landscape often requires navigating a maze of disconnected views."
 ---
 
 # Open, Immersive, Human-Centered: The Future of Data Center Management
-
-<!-- more -->
 
 ## Introduction – Why This Project Exists
 

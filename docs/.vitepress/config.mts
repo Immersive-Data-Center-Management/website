@@ -8,6 +8,14 @@ const base = process.env.VITE_BASE_PATH || "/";
 export default defineConfig({
   base,
 
+  vue: {
+    template: {
+      compilerOptions: {
+        isCustomElement: (tag) => tag.startsWith('ui5-')
+      }
+    }
+  },
+
   title: "Immersive Data Center Management",
   description: "An ApeiroRA Project",
 
@@ -35,18 +43,18 @@ export default defineConfig({
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: '/IDCM_logo.svg',
+    siteTitle: "Immersive Data Center Management",
+
     nav: [
       { text: "Home", link: "/" },
-      { text: "Overview", link: "/overview" },
-      { text: "News", link: "/news" }
+      { text: "Overview", link: "/overview", activeMatch: "/overview", activeMatch: "/overview" },
+      { text: "Documentation", link: "/documentation/pilots/idtx-flow", activeMatch: "/documentation" },
+      { text: "News", link: "/news", activeMatch: "/news", activeMatch: "/news" },
     ],
 
     sidebar: {
       "overview": [
-        {
-          text: "Overview",
-          link: "/overview"
-        },
         {
           text: "Data Center",
           link: "/overview/data-center"
@@ -60,6 +68,26 @@ export default defineConfig({
           link: "/overview/digital-twin-aas"
         }
       ],
+      "documentation": [
+        {
+          text: "Pilots",
+          items: [
+            {
+              text: "IDTX Flow",
+              link: "/documentation/pilots/idtx-flow"
+            }
+          ]
+        },
+        {
+          text: "Publications",
+          items: [
+            {
+              text: "XR for Complex Datacenter Environments",
+              link: "/documentation/publications/xr-for-complex-datacenter-environments"
+            }
+          ]
+        },
+      ],
       "news": [
         {
           text: "News",
@@ -69,6 +97,10 @@ export default defineConfig({
           }))
         },
       ]
+    },
+
+    search: {
+      provider: 'local'
     },
 
     socialLinks: [

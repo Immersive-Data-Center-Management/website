@@ -29,7 +29,7 @@ const iconSrc = computed(() =>
   align-items: center;
   gap: 8px;
   padding: 10px 20px 10px 16px;
-  border-radius: 8px;
+  border-radius: 20px;
   font-family: 'Inter', sans-serif;
   font-size: 14px;
   font-weight: 600;

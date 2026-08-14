@@ -22,16 +22,11 @@ IDTX Core is designed to serve as the collaboration backbone for immersive, mult
 
 Deploying IDTX Core is straightforward. For production environments, the recommended approach is to use the containerized version with Docker, which handles all dependencies automatically.
 
-**Quick Start:**
-1. Clone the IDTX Core repository
-2. Build the Docker image using the provided Dockerfile
-3. Configure environment variables for your OAuth2/OIDC identity provider
-4. Run the container with port 8080 exposed
-5. Start uploading and serving USD files
+Simply provision a server or container, configure it with your organization's identity provider settings, and IDTX Core is ready to serve your digital twin assets. The system manages all the complexity of authentication, file storage, and API management behind the scenes.
 
-The server will be available at `http://localhost:8080` with a RESTful API ready for integration with your applications.
+Your team can immediately start uploading USD files, which become instantly available for download and integration into your Godot applications, data catalogs, and other systems. All file access is secured through standard OAuth2 authentication that integrates with your existing identity infrastructure.
 
-For development or custom builds, consult the project repository for detailed build instructions using SCons.
+For development or custom builds, consult the project repository for detailed build instructions.
 
 ## Key Features
 
@@ -43,20 +38,6 @@ For development or custom builds, consult the project repository for detailed bu
 ### Thumbnail Generation (Planned)
 
 Preview thumbnails will be automatically generated during USD file uploads, providing quick visual feedback and streamlining asset management workflows. Clients can poll for thumbnail status and retrieve images once generation is complete.
-
-### Comprehensive REST API
-
-Clean, RESTful endpoints enable seamless integration:
-
-| Function | Purpose |
-|----------|---------|
-| **Authentication** | OAuth2/JWT login via identity provider |
-| **Health Check** | Server status monitoring |
-| **File Operations** | List, upload, and download USD files |
-| **Thumbnails** | Automatic preview generation and retrieval (planned) |
-| **Sessions** | Manage multi-user collaboration sessions |
-
-All authenticated endpoints require a valid JWT token obtained through the login endpoint.
 
 ### Enterprise-Ready Deployment
 

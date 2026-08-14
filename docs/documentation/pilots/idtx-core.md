@@ -84,3 +84,5 @@ Currently, **Use-Case 1** (USD file serving and download) is fully operational a
 ---
 
 *IDTX Core is open source and welcomes contributions, feature requests, and feedback. Learn more at the project repository.*
+
+<GitHubButton href="https://github.com/Immersive-Data-Center-Management/idtx-core" label="View idtx-core on GitHub" />

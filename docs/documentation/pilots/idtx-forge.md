@@ -77,3 +77,5 @@ IDTX Forge is actively being developed as a core component of the Immersive Digi
 ---
 
 *IDTX Forge is open source and welcomes contributions, feature requests, and feedback. Learn more at the project repository.*
+
+<GitHubButton href="https://github.com/Immersive-Data-Center-Management/idtx-forge" label="View idtx-forge on GitHub" />

@@ -69,13 +69,32 @@ export default defineConfig({
         }
       ],
       "documentation": [
+        // {
+        //   text: "General Architecture",
+        //   items: [
+        //     { text: "Overview", link: "/documentation/general-architecture/" },
+        //     { text: "Digital Twin – a conceptual perspective", link: "/documentation/general-architecture/digital-twin" },
+        //     { text: "USDZ – THE standard of tomorrow", link: "/documentation/general-architecture/usdz" },
+        //   ]
+        // },
+        // {
+        //   text: "Research & Exploration",
+        //   items: [
+        //     { text: "Experiment 1 – 3D Viewer", link: "/documentation/research/experiment-1-3d-viewer" },
+        //     { text: "Experiment 2 – AR", link: "/documentation/research/experiment-2-ar" },
+        //     { text: "Experiment 3", link: "/documentation/research/experiment-3" },
+        //   ]
+        // },
         {
           text: "Pilots",
           items: [
-            {
-              text: "IDTX Flow",
-              link: "/documentation/pilots/idtx-flow"
-            }
+            { text: "IDTX Flow", link: "/documentation/pilots/idtx-flow" },
+            { text: "IDTX Core", link: "/documentation/pilots/idtx-core" },
+            // { text: "IDTX Forge", link: "/documentation/pilots/idtx-forge" },
+            // { text: "IDTX Orca", link: "/documentation/pilots/idtx-orca" },
+            // { text: "IDTX Inspector", link: "/documentation/pilots/idtx-inspector" },
+            // { text: "IDTX Poser", link: "/documentation/pilots/idtx-poser" },
+            // { text: "IDTX Conductor", link: "/documentation/pilots/idtx-conductor" },
           ]
         },
         {

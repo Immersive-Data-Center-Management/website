@@ -90,7 +90,7 @@ export default defineConfig({
           items: [
             { text: "IDTX Flow", link: "/documentation/pilots/idtx-flow" },
             { text: "IDTX Core", link: "/documentation/pilots/idtx-core" },
-            // { text: "IDTX Forge", link: "/documentation/pilots/idtx-forge" },
+            { text: "IDTX Forge", link: "/documentation/pilots/idtx-forge" },
             // { text: "IDTX Orca", link: "/documentation/pilots/idtx-orca" },
             // { text: "IDTX Inspector", link: "/documentation/pilots/idtx-inspector" },
             // { text: "IDTX Poser", link: "/documentation/pilots/idtx-poser" },
@@ -103,6 +103,10 @@ export default defineConfig({
             {
               text: "XR for Complex Datacenter Environments",
               link: "/documentation/publications/xr-for-complex-datacenter-environments"
+            },
+            {
+              text: "Building Immersive Digital Twins",
+              link: "/documentation/publications/building-immersive-digital-twins"
             }
           ]
         },

@@ -21,6 +21,6 @@
   },
   "dependencies": {
     "@ui5/webcomponents": "^2.25.0",
-    "@ui5/webcomponents-icons": "^2.25.0"
+    "@ui5/webcomponents-icons": "^2.26.0"
   }
 }

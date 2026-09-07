@@ -20,7 +20,7 @@
     "format:write": "prettier --write \"docs/**/*.md\""
   },
   "dependencies": {
-    "@ui5/webcomponents": "^2.25.0",
+    "@ui5/webcomponents": "^2.26.0",
     "@ui5/webcomponents-icons": "^2.26.0"
   }
 }

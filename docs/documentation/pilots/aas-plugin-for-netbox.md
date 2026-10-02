@@ -12,7 +12,7 @@ The AAS Plugin for NetBox enables automatic synchronization from NetBox to the A
 
 ### 1. Automated Data Synchronization (NetBox → AAS)
 
-The plugin automatically converts infrastructure data from NetBox into standardized AAS format whenever assets are created or modified. Changes in your NetBox inventory device additions, configuration updates, or property changes trigger automatic synchronization to ensure your digital twin systems always work with current infrastructure data.
+The plugin automatically converts infrastructure data from NetBox into standardized AAS format whenever assets are created or modified. Changes in your NetBox inventory such as device additions, configuration updates, or property changes trigger automatic synchronization to ensure your digital twin systems always work with current infrastructure data.
 
 ### 2. Standards-Based Asset Representation
 

@@ -91,6 +91,7 @@ export default defineConfig({
             { text: "IDTX Flow", link: "/documentation/pilots/idtx-flow" },
             { text: "IDTX Core", link: "/documentation/pilots/idtx-core" },
             { text: "IDTX Forge", link: "/documentation/pilots/idtx-forge" },
+            { text: "AAS Plugin for NetBox", link: "/documentation/pilots/aas-plugin-for-netbox" },
             // { text: "IDTX Orca", link: "/documentation/pilots/idtx-orca" },
             // { text: "IDTX Inspector", link: "/documentation/pilots/idtx-inspector" },
             // { text: "IDTX Poser", link: "/documentation/pilots/idtx-poser" },

@@ -7,9 +7,9 @@
     "node": "24.15.0"
   },
   "devDependencies": {
-    "@types/node": "^26.4.0",
+    "@types/node": "^26.6.3",
     "gray-matter": "^4.0.3",
-    "prettier": "^3.9.6",
+    "prettier": "^3.9.9",
     "vitepress": "^2.0.0-alpha.20"
   },
   "scripts": {
@@ -21,6 +21,6 @@
   },
   "dependencies": {
     "@ui5/webcomponents": "^2.26.0",
-    "@ui5/webcomponents-icons": "^2.26.0"
+    "@ui5/webcomponents-icons": "^2.27.2"
   }
 }

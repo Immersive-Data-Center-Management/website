@@ -108,6 +108,10 @@ export default defineConfig({
             {
               text: "Building Immersive Digital Twins",
               link: "/documentation/publications/building-immersive-digital-twins"
+            },
+            {
+              text: "ApeiroUI – a Visual Interface for Cloud Infrastructure",
+              link: "/documentation/publications/apeiro-ui-nordichi"
             }
           ]
         },

@@ -50,6 +50,7 @@ export default defineConfig({
       { text: "Home", link: "/" },
       { text: "Overview", link: "/overview", activeMatch: "/overview", activeMatch: "/overview" },
       { text: "Documentation", link: "/documentation/pilots/idtx-flow", activeMatch: "/documentation" },
+      { text: "Publications", link: "/publications/xr-for-complex-datacenter-environments", activeMatch: "/publications" },
       { text: "News", link: "/news", activeMatch: "/news", activeMatch: "/news" },
     ],
 
@@ -98,20 +99,22 @@ export default defineConfig({
             // { text: "IDTX Conductor", link: "/documentation/pilots/idtx-conductor" },
           ]
         },
+      ],
+      "publications": [
         {
           text: "Publications",
           items: [
             {
               text: "XR for Complex Datacenter Environments",
-              link: "/documentation/publications/xr-for-complex-datacenter-environments"
+              link: "/publications/xr-for-complex-datacenter-environments"
             },
             {
               text: "Building Immersive Digital Twins",
-              link: "/documentation/publications/building-immersive-digital-twins"
+              link: "/publications/building-immersive-digital-twins"
             },
             {
               text: "ApeiroUI – a Visual Interface for Cloud Infrastructure",
-              link: "/documentation/publications/apeiro-ui-nordichi"
+              link: "/publications/apeiro-ui-nordichi"
             }
           ]
         },

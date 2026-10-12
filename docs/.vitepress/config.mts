@@ -79,21 +79,13 @@ export default defineConfig({
       ],
       "documentation": [
         {
-          text: "Architecture",
+          text: '<ui5-icon name="Chart-Tree-Map" class="sidebar-section-icon"></ui5-icon><span>Architecture</span>',
           items: [
             { text: "Overview", link: "/documentation/general-architecture/" },
           ]
         },
-        // {
-        //   text: "Research & Exploration",
-        //   items: [
-        //     { text: "Experiment 1 – 3D Viewer", link: "/documentation/research/experiment-1-3d-viewer" },
-        //     { text: "Experiment 2 – AR", link: "/documentation/research/experiment-2-ar" },
-        //     { text: "Experiment 3", link: "/documentation/research/experiment-3" },
-        //   ]
-        // },
         {
-          text: "Pilots",
+          text: '<ui5-icon name="flag-2" class="sidebar-section-icon"></ui5-icon><span>Pilots</span>',
           items: [
             { text: "IDTX Flow", link: "/documentation/pilots/idtx-flow" },
             { text: "IDTX Core", link: "/documentation/pilots/idtx-core" },
@@ -103,6 +95,14 @@ export default defineConfig({
             // { text: "IDTX Inspector", link: "/documentation/pilots/idtx-inspector" },
             // { text: "IDTX Poser", link: "/documentation/pilots/idtx-poser" },
             // { text: "IDTX Conductor", link: "/documentation/pilots/idtx-conductor" },
+          ]
+        },
+        {
+          text: '<ui5-icon name="lab" class="sidebar-section-icon"></ui5-icon><span>PoC</span>',
+          items: [
+            { text: "Experiment 1 – 3D Viewer", link: "/documentation/research/experiment-1-3d-viewer" },
+            { text: "Experiment 2 – AR", link: "/documentation/research/experiment-2-ar" },
+            { text: "Experiment 3", link: "/documentation/research/experiment-3" },
           ]
         },
       ],

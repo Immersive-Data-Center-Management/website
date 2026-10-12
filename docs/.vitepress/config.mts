@@ -49,7 +49,7 @@ export default defineConfig({
     nav: [
       { text: "Home", link: "/" },
       { text: "Overview", link: "/overview", activeMatch: "/overview", activeMatch: "/overview" },
-      { text: "Documentation", link: "/documentation/pilots/idtx-flow", activeMatch: "/documentation" },
+      { text: "Documentation", link: "/documentation/general-architecture", activeMatch: "/documentation" },
       { text: "Publications", link: "/publications/xr-for-complex-datacenter-environments", activeMatch: "/publications" },
       { text: "News", link: "/news", activeMatch: "/news", activeMatch: "/news" },
     ],
@@ -70,14 +70,12 @@ export default defineConfig({
         }
       ],
       "documentation": [
-        // {
-        //   text: "General Architecture",
-        //   items: [
-        //     { text: "Overview", link: "/documentation/general-architecture/" },
-        //     { text: "Digital Twin – a conceptual perspective", link: "/documentation/general-architecture/digital-twin" },
-        //     { text: "USDZ – THE standard of tomorrow", link: "/documentation/general-architecture/usdz" },
-        //   ]
-        // },
+        {
+          text: "Architecture",
+          items: [
+            { text: "Overview", link: "/documentation/general-architecture/" },
+          ]
+        },
         // {
         //   text: "Research & Exploration",
         //   items: [

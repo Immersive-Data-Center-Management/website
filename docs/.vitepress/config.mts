@@ -3,10 +3,18 @@ import { defineConfig } from "vitepress"
 import { getBlogSidebarItems } from "./utils/blogPosts";
 
 const base = process.env.VITE_BASE_PATH || "/";
+// Ensure a single trailing slash so asset hrefs below concatenate cleanly.
+const baseWithSlash = base.endsWith("/") ? base : `${base}/`;
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base,
+
+  head: [
+    ["link", { rel: "icon", type: "image/svg+xml", href: `${baseWithSlash}favicon.svg` }],
+    ["link", { rel: "icon", type: "image/x-icon", href: `${baseWithSlash}favicon.ico` }],
+    ["link", { rel: "apple-touch-icon", sizes: "180x180", href: `${baseWithSlash}apple-touch-icon.png` }],
+  ],
 
   vue: {
     template: {

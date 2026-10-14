@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "@11ty/gray-matter": "^2.1.0",
-    "@types/node": "^26.6.4",
+    "@types/node": "^26.6.5",
     "prettier": "^3.9.9",
     "vitepress": "^2.0.0-alpha.20"
   },

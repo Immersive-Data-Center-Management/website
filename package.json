@@ -7,7 +7,7 @@
     "node": "24.15.0"
   },
   "devDependencies": {
-    "@11ty/gray-matter": "^2.1.0",
+    "@11ty/gray-matter": "^3.0.0",
     "@types/node": "^26.6.5",
     "prettier": "^3.9.10",
     "vitepress": "^2.0.0-alpha.20"

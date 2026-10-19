@@ -2,13 +2,15 @@ import DefaultTheme from 'vitepress/theme'
 import type { Theme } from 'vitepress'
 import { h } from 'vue'
 import NewsArticleDate from './components/NewsArticleDate.vue'
+import HomeIllustrations from './components/HomeIllustrations.vue'
 import './custom.css'
 import GitHubButton from './components/GitHubButton.vue'
 
 export default {
   extends: DefaultTheme,
   Layout: () => h(DefaultTheme.Layout, null, {
-    'doc-before': () => h(NewsArticleDate)
+    'doc-before': () => h(NewsArticleDate),
+    'home-features-after': () => h(HomeIllustrations),
   }),
   async enhanceApp({ app }) {
     app.component('GitHubButton', GitHubButton)

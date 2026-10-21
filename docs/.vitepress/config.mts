@@ -82,50 +82,8 @@ export default defineConfig({
             }
           ]
         },
-      //   {
-      //     text: "High-Level Architecture",
-      //     link: "/overview/high-level-architecture",
-      //     items: []
-      //   },
-      //   {
-      //     text: "Deep Dives",
-      //     items: [
-      //       {
-      //         text: "Deep Dive: Build an Immersive Application",
-      //         link: "/overview/deep-dive-build-an-immersive-application"
-      //       },
-      //       {
-      //         text: "Deep Dive: Artificial Intelligence in IDCM",
-      //         link: "/overview/deep-dive-artificial-intelligence-in-idcm"
-      //       },
-      //       {
-      //         text: "Deep Dive: Data Ingestion",
-      //         link: "/overview/deep-dive-data-ingestion"
-      //       },
-      //       {
-      //         text: "Deep Dive: Telling Stories with Synthetic Data",
-      //         link: "/overview/deep-dive-telling-stories-with-synthetic-data"
-      //       }
-      //     ]
-      //   }
       ],
       "documentation": [
-        // {
-        //   text: "General Architecture",
-        //   items: [
-        //     { text: "Overview", link: "/documentation/general-architecture/" },
-        //     { text: "Digital Twin – a conceptual perspective", link: "/documentation/general-architecture/digital-twin" },
-        //     { text: "USDZ – THE standard of tomorrow", link: "/documentation/general-architecture/usdz" },
-        //   ]
-        // },
-        // {
-        //   text: "Research & Exploration",
-        //   items: [
-        //     { text: "Experiment 1 – 3D Viewer", link: "/documentation/research/experiment-1-3d-viewer" },
-        //     { text: "Experiment 2 – AR", link: "/documentation/research/experiment-2-ar" },
-        //     { text: "Experiment 3", link: "/documentation/research/experiment-3" },
-        //   ]
-        // },
         {
           text: '<ui5-icon name="flag-2" class="sidebar-section-icon"></ui5-icon><span>Pilots</span>',
           items: [
@@ -133,25 +91,8 @@ export default defineConfig({
             { text: "IDTX Core", link: "/documentation/pilots/idtx-core" },
             { text: "IDTX Forge", link: "/documentation/pilots/idtx-forge" },
             { text: "AAS Plugin for NetBox", link: "/documentation/pilots/aas-plugin-for-netbox" },
-            // { text: "IDTX Orca", link: "/documentation/pilots/idtx-orca" },
-            // { text: "IDTX Metrics Mapper", link: "/documentation/pilots/idtx-metrics-mapper" },
-            // { text: "IDTX Studio", link: "/documentation/pilots/idtx-studio" },
-            // { text: "IDCM AI Backend", link: "/documentation/pilots/idcm-ai-backend" },
-            // { text: "IDCM AAS MCP Server", link: "/documentation/pilots/idcm-aas-mcp-server" },
-            // { text: "Cabbage", link: "/documentation/pilots/cabbage" },
           ]
         },
-        // {
-        //   text: "<ui5-icon name="lab" class="sidebar-section-icon"></ui5-icon><span>Samples</span>",
-        //   items: [
-        //     { text: "1", link: "/documentation/samples/sample-1" },
-        //     { text: "2", link: "/documentation/samples/sample-2" },
-        //     { text: "4", link: "/documentation/samples/sample-4" },
-        //     { text: "5", link: "/documentation/samples/sample-5" },
-        //     { text: "Network Topology Viewer", link: "/documentation/samples/network-topology-viewer" },
-        //     { text: "Temporal Load Viewer", link: "/documentation/samples/temporal-load-viewer" },
-        //   ]
-        // },
       ],
       "publications": [
         {

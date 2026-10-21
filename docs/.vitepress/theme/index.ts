@@ -21,6 +21,9 @@ export default {
       await import('@ui5/webcomponents-icons/dist/it-host.js')
       await import('@ui5/webcomponents-icons/dist/vr-glasses.js')
       await import('@ui5/webcomponents-icons/dist/dimension.js')
+      await import('@ui5/webcomponents-icons/dist/Chart-Tree-Map.js')
+      await import('@ui5/webcomponents-icons/dist/flag-2.js')
+      await import('@ui5/webcomponents-icons/dist/lab.js')
     }
   },
 } satisfies Theme

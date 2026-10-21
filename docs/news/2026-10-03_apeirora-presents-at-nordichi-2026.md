@@ -8,7 +8,7 @@ excerpt: "On October 3, 2026 Our team members Boris Müller and Oliver Opaterni 
 
 ## Researchers Present "ApeiroUI" – Solving Cloud DevOps Fragmentation Through Unified Visual Interface
 
-On October 3, 2026, our team members Boris Müller (Urban Complexity Lab, University of Applied Sciences Potsdam) and Oliver Opaterni (SAP Innovation Center Potsdam) presented their cutting-edge research at the 14th Nordic Conference on Human-Computer Interaction (NordiCHI 2026) in Vaasa, Finland,
+On October 3, 2026, our team members Boris Müller (Urban Complexity Lab, University of Applied Sciences Potsdam) and Oliver Opaterni (SAP Innovation Center Potsdam) presented their cutting-edge research at the 14th Nordic Conference on Human-Computer Interaction (NordiCHI 2026) in Vaasa, Finland.
 
 Their paper, "[ApeiroUI – a Visual Interface for Cloud Infrastructure: Bridging Fragmentation in Cloud DevOps Through Designing a Unified Visual Infrastructure Interface](/documentation/publications/apeiro-ui-nordichi)," addresses a critical challenge facing modern development and operations teams. Modern cloud environments suffer from extensive tool fragmentation, where teams rely on numerous dashboards, command-line interfaces (CLI), and monitoring tools. DevOps engineers frequently switch contexts, manually correlate information, and maintain mental models across disparate systems. An error-prone and cognitively demanding process.
 

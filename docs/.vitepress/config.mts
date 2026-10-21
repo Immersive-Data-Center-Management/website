@@ -50,41 +50,59 @@ export default defineConfig({
       { text: "Home", link: "/" },
       { text: "Overview", link: "/overview", activeMatch: "/overview", activeMatch: "/overview" },
       { text: "Documentation", link: "/documentation/pilots/idtx-flow", activeMatch: "/documentation" },
+      { text: "Publications", link: "/publications/xr-for-complex-datacenter-environments", activeMatch: "/publications" },
       { text: "News", link: "/news", activeMatch: "/news", activeMatch: "/news" },
     ],
 
     sidebar: {
       "overview": [
         {
-          text: "Data Center",
-          link: "/overview/data-center"
+          text: "Overview",
+          link: "/overview",
+          items: [
+            {
+              text: "Data Center",
+              link: "/overview/data-center"
+            },
+            {
+              text: "Extended Reality",
+              link: "/overview/xr"
+            },
+            {
+              text: "Digital Twin & Asset Administration Shell",
+              link: "/overview/digital-twin-aas"
+            }
+          ]
         },
-        {
-          text: "Extended Reality",
-          link: "/overview/xr"
-        },
-        {
-          text: "Digital Twin & Asset Administration Shell",
-          link: "/overview/digital-twin-aas"
-        }
+      //   {
+      //     text: "High-Level Architecture",
+      //     link: "/overview/high-level-architecture",
+      //     items: []
+      //   },
+      //   {
+      //     text: "Deep Dives",
+      //     items: [
+      //       {
+      //         text: "Deep Dive: Build an Immersive Application",
+      //         link: "/overview/deep-dive-build-an-immersive-application"
+      //       },
+      //       {
+      //         text: "Deep Dive: Artificial Intelligence in IDCM",
+      //         link: "/overview/deep-dive-artificial-intelligence-in-idcm"
+      //       },
+      //       {
+      //         text: "Deep Dive: Data Ingestion",
+      //         link: "/overview/deep-dive-data-ingestion"
+      //       },
+      //       {
+      //         text: "Deep Dive: Telling Stories with Synthetic Data",
+      //         link: "/overview/deep-dive-telling-stories-with-synthetic-data"
+      //       }
+      //     ]
+      //   }
       ],
       "documentation": [
-        // {
-        //   text: "General Architecture",
-        //   items: [
-        //     { text: "Overview", link: "/documentation/general-architecture/" },
-        //     { text: "Digital Twin – a conceptual perspective", link: "/documentation/general-architecture/digital-twin" },
-        //     { text: "USDZ – THE standard of tomorrow", link: "/documentation/general-architecture/usdz" },
-        //   ]
-        // },
-        // {
-        //   text: "Research & Exploration",
-        //   items: [
-        //     { text: "Experiment 1 – 3D Viewer", link: "/documentation/research/experiment-1-3d-viewer" },
-        //     { text: "Experiment 2 – AR", link: "/documentation/research/experiment-2-ar" },
-        //     { text: "Experiment 3", link: "/documentation/research/experiment-3" },
-        //   ]
-        // },
+ 
         {
           text: "Pilots",
           items: [
@@ -93,25 +111,40 @@ export default defineConfig({
             { text: "IDTX Forge", link: "/documentation/pilots/idtx-forge" },
             { text: "AAS Plugin for NetBox", link: "/documentation/pilots/aas-plugin-for-netbox" },
             // { text: "IDTX Orca", link: "/documentation/pilots/idtx-orca" },
-            // { text: "IDTX Inspector", link: "/documentation/pilots/idtx-inspector" },
-            // { text: "IDTX Poser", link: "/documentation/pilots/idtx-poser" },
-            // { text: "IDTX Conductor", link: "/documentation/pilots/idtx-conductor" },
+            // { text: "IDTX Metrics Mapper", link: "/documentation/pilots/idtx-metrics-mapper" },
+            // { text: "IDTX Studio", link: "/documentation/pilots/idtx-studio" },
+            // { text: "IDCM AI Backend", link: "/documentation/pilots/idcm-ai-backend" },
+            // { text: "IDCM AAS MCP Server", link: "/documentation/pilots/idcm-aas-mcp-server" },
+            // { text: "Cabbage", link: "/documentation/pilots/cabbage" },
           ]
         },
+        // {
+        //   text: "Samples",
+        //   items: [
+        //     { text: "1", link: "/documentation/samples/sample-1" },
+        //     { text: "2", link: "/documentation/samples/sample-2" },
+        //     { text: "4", link: "/documentation/samples/sample-4" },
+        //     { text: "5", link: "/documentation/samples/sample-5" },
+        //     { text: "Network Topology Viewer", link: "/documentation/samples/network-topology-viewer" },
+        //     { text: "Temporal Load Viewer", link: "/documentation/samples/temporal-load-viewer" },
+        //   ]
+        // },
+      ],
+      "publications": [
         {
           text: "Publications",
           items: [
             {
               text: "XR for Complex Datacenter Environments",
-              link: "/documentation/publications/xr-for-complex-datacenter-environments"
+              link: "/publications/xr-for-complex-datacenter-environments"
             },
             {
               text: "Building Immersive Digital Twins",
-              link: "/documentation/publications/building-immersive-digital-twins"
+              link: "/publications/building-immersive-digital-twins"
             },
             {
               text: "ApeiroUI – a Visual Interface for Cloud Infrastructure",
-              link: "/documentation/publications/apeiro-ui-nordichi"
+              link: "/publications/apeiro-ui-nordichi"
             }
           ]
         },

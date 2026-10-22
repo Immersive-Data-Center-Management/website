@@ -96,7 +96,7 @@ export default defineConfig({
       ],
       "publications": [
         {
-          text: "Publications",
+          text: '<ui5-icon name="education" class="sidebar-section-icon"></ui5-icon><span>Publications</span>',
           items: [
             {
               text: "XR for Complex Datacenter Environments",

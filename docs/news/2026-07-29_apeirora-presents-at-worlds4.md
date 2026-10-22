@@ -6,7 +6,7 @@ excerpt: "On July 29th, 2026, we attended the WorldS4 Conference in London and p
 
 # ApeiroRA Presents at WorldS4
 
-On July 29th, 2026, we attended the [WorldS4 Conference](https://www.worlds4.co.uk) in London and presented our paper "[Building Immersive Digital Twins: An Empirical Stakeholder Study of Barriers and Open Source Building Blocks in the European AR, VR, and IoT Ecosystem](/documentation/publications/building-immersive-digital-twins)." WorldS4 brings together international experts from technology, science, and business to explore advances in digital systems that support sustainable transformation.
+On July 29th, 2026, we attended the [WorldS4 Conference](https://www.worlds4.co.uk) in London and presented our paper "[Building Immersive Digital Twins: An Empirical Stakeholder Study of Barriers and Open Source Building Blocks in the European AR, VR, and IoT Ecosystem](/publications/building-immersive-digital-twins)." WorldS4 brings together international experts from technology, science, and business to explore advances in digital systems that support sustainable transformation.
 
 The conference is organized across four tracks, ranging from digital infrastructure and computational systems to applications in government and engineering. Our paper contributed to Track 1: Infrastructure and Computation and addressed the critical question: Why do so many Digital Twin initiatives deliver promising results in the pilot phase — but fail to scale in production environments?
 

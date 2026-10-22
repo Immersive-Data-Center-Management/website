@@ -81,3 +81,5 @@ The AAS Plugin for NetBox is actively developed as a data preparation component 
 ---
 
 *The AAS Plugin for NetBox is open source and welcomes contributions, feature requests, and feedback. Learn more at the project repository.*
+
+<GitHubButton href="https://github.com/Immersive-Data-Center-Management/aas-plugin-for-netbox" label="View aas-plugin-for-netbox on GitHub" />

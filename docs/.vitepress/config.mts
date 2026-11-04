@@ -93,6 +93,12 @@ export default defineConfig({
             { text: "AAS Plugin for NetBox", link: "/documentation/pilots/aas-plugin-for-netbox" },
           ]
         },
+        {
+          text: '<ui5-icon name="lab" class="sidebar-section-icon"></ui5-icon><span>Samples</span>',
+          items: [
+            { text: "AAS + OpenUSD Viewer", link: "/documentation/samples/aas-openusd-viewer" },
+          ]
+        },
       ],
       "publications": [
         {

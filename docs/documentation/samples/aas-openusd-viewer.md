@@ -41,14 +41,14 @@ The viewer supports USD variant sets, allowing users to compare different config
 
 ### Clean Separation of Concerns
 
-The Godot 4 frontend separates data flow (`scripts/aas/`), camera navigation and scene selection (`scripts/viewer/`), and UI presentation (`scripts/ui/`, `scripts/screens/`) into distinct layers, making the codebase easy to extend for domain-specific use cases.
+The Godot 4 frontend separates data flow, camera navigation and scene selection, and UI presentation into distinct layers, making the codebase easy to extend for domain-specific use cases.
 
 ## Getting Started
 
 Clone the repository, run `docker compose up`, and open the Godot project. The demo connects to the local stack automatically.
 
 ![Login Screen](/samples/aas-openusd-viewer/login.png)
-_Figure 2: Authentication via KeyCloak, secure, local, and ready for enterprise integration_
+_Figure 2: Authentication via KeyCloak_
 
 The repository includes demo data and USD assets: a rack with labeled server units, ready to explore out of the box.
 

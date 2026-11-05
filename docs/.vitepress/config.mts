@@ -97,6 +97,7 @@ export default defineConfig({
           text: '<ui5-icon name="lab" class="sidebar-section-icon"></ui5-icon><span>Samples</span>',
           items: [
             { text: "AAS + OpenUSD Viewer", link: "/documentation/samples/aas-openusd-viewer" },
+            { text: "AAS + AR On-site Check", link: "/documentation/samples/aas-on-site-check" },
           ]
         },
       ],

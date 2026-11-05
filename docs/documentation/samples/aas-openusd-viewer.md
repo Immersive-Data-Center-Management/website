@@ -64,4 +64,4 @@ The insights from this prototype feed directly into IDTX Core, IDTX Forge, and p
 
 *This experiment is open source and part of the Immersive Data Center Management project. The insights feed directly into IDTX Core, IDTX Forge, and future production architectures.*
 
-<GitHubButton href="https://github.com/Immersive-Data-Center-Management/samples" label="View Sample on GitHub" />
+<GitHubButton href="https://github.com/Immersive-Data-Center-Management/samples/tree/experiments_2-3/Experiment_1" label="View Sample on GitHub" />

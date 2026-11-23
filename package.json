@@ -4,7 +4,7 @@
   "private": true,
   "description": "Website for the Immersive Data Center Management project",
   "engines": {
-    "node": "24.22.1"
+    "node": "26.x"
   },
   "devDependencies": {
     "@11ty/gray-matter": "^3.0.0",

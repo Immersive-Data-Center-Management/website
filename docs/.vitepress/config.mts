@@ -115,6 +115,10 @@ export default defineConfig({
             {
               text: "ApeiroUI – a Visual Interface for Cloud Infrastructure",
               link: "/publications/apeiro-ui-nordichi"
+            },
+            {
+              text: "AI-Assisted XR for Data-Center Operations",
+              link: "/publications/ai-assisted-xr-for-data-center-operations"
             }
           ]
         },

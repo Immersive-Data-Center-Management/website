@@ -10,7 +10,7 @@
     "@11ty/gray-matter": "^3.0.0",
     "@types/node": "^26.6.5",
     "prettier": "^3.9.10",
-    "vitepress": "^2.0.0-alpha.20"
+    "vitepress": "^2.0.0-alpha.21"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",
